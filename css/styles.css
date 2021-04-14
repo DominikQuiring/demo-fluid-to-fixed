@@ -1,0 +1,41 @@
+
+body {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+
+}
+header {
+    background-color: #115194;
+    text-align: center;
+}
+footer{
+    background-color: #115194;
+    margin-bottom: 24px;
+    padding: 48px 0;
+}
+
+nav {
+    background-color: #4bb19d;
+    padding: 16px;
+}
+
+.banner {
+    background-color: #b8bac3;
+    padding: 288px 0;
+    margin-bottom: 24px;
+}
+
+.promo {
+    background-color: #b0d892;
+    padding: 128px 0;
+    margin-bottom: 24px;
+    width: calc(98%/3);
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1800px) {
+    .fixed-container {
+        width: 1250px;
+        margin: 0 auto;
+    }
+}
